@@ -1,45 +1,97 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# UltraX Dex Platform
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+**What is UltraX?**
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+To begin, we should make clear the distinctions between the different areas of "UltraX", some of which may confuse new users.
 
----
+- **The Ultrax Protocol**: A suite of persistent, non-upgradable smart contracts that together create an automated market maker, a protocol that facilitates peer-to-peer market making and swapping of ERC-20, BEP-20 tokens , Bridge on the EVM Chain and BITCOIN.
+- **The Ultrax Interface**: A web interface that allows for easy interaction with the Uniswap protocol. The interface is only one of many ways one may interact with the Uniswap protocol.
+- **UltraX Governance**: A governance system for governing the Ultrax Protocol, enabled by the UTX token.
+- **UltraX Node.js Version**: UltraX only needs Node.js version 16.20.2.
 
-## Edit a file
+**UItraX Exchange:**
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+Ultrax Exchange is a Decentralized Trading & Exchange platform designed to provide a transparent, trustless, and fully on-chain trading platform.
+With the core being an on-chain orderbook matching engine, UItraX Exchange helps traders to have full control over their orders while reducing transaction costs and remains the same trading experience in a Centralized Exchange.
+V1 is built for EVM blockchains and is completely permissionless. Partners can work with Position Exchange’s on-chain central orderbook to share liquidity and power unique features for a better user experience.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+V2 will support follow things:
 
----
+- Swap
+In the Swap of UltraX Interface, the EVM tokens (ERC-20, BEP-20) are supported.
+- Bridge
+    
+    UltraX Bridge is software protocols that **facilitate the movement of assets and data between different blockchain networks**, enabling interoperability within the decentralized finance ecosystem. EVM tokens (Ethereum, BSC, Polygon, Arbitrum, Optimism) UTX Governance token, Internet Computer and Bitcorn are available.
+    
 
-## Create a file
+**Website:**
 
-Next, you’ll add a new file to this repository.
+The website contains modules like Trade, Dashboard, Earn and Buy.
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+1. Trade
+In the Trade Page, User can see the trading view graph of each Tokens you selected.
+    - Current Token Price, Token Volume and High / Low Price for 24 hours
+    - Trading History and Wallet Position of Trading, Sell / Buy Token Orders
+    
+    In the Exchange section of Trading page, user can select Tokens, Amount, Leverage, Exchange Action Type.
+    The Tokens and Amount of Wallet will be auto-placeholder in the Max and Token lists
+    
+2. Dashboard
+    
+    The dashboard page displays the current status of UltraX Exchange.
+    
+    - 24h Volume
+    - Open Interest
+    - Long Positions
+    - Short Positions
+    - Overview of Pool
+    - Total Stats of Exchange
+    - Stats of governance Token (UTX and ULP)
+    - ULP / UTX Index Composition (Pair of Liquidity Pool)
+3. Earn
+    
+    This Page is for Staking UTX/ULP Token & Earning Rewards(esUTX)
+    
+    - Overview of connected Wallet
+        
+        Owned UTX, esUTX, ULP, Claimable Rewards
+        
+        - User can Buy Tokens for Staking
+        - Unstake Tokens from Each Pool
+        - Claim Reward Tokens of Each Pool.
+    - Overview of Staking Pools
+        
+        Example: UTX Staking Pool - Reward esUTX & U2U
+        
+        - Total Staked Tokens of each Pool
+        - Reward Token Price
+        - Total Supply of the Reward Token
+        - APR / Multiplier Point APR
+        - Staked Multiplier Points (Referral System)
+    - Vault Vesting
+    Convert Rewards to UTX
+        - Deposit Rewards to the Pool
+        - Withdraw Rewards to the Pool
+        - Claim UTX
+4. Buy
+    
+    User easily buy UTX or ULP using his favorite payment methods
+    
+    UTX is the utility and governance token. Accrues 30% of the platform's generated fees.
+    
+    ULP is the liquidity provider token. Accrues 70% of the platform's generated fees.
+    
+    - UTX
+        - buy UTX from Decentralized Exchanges.
+        There are many links of Decentralized Exchanges here
+        - Buy UTX from Centralized Services
+            
+            There are many links of Centralized Exchanges here
+            
+    - ULP
+        
+        User can buy / Sell ULP from UltraX Exchange direactly.
+        
+        - Sell / Buy Listed Token (ETH, USDT, BTC, BNB)
+5. UltraX Faucet
+6. UltraX Doc
